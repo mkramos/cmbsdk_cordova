@@ -1906,4 +1906,4 @@ Scanner.prototype.scanImageFromBase64 = function(base64, callback){
         .catch(callback); //catch unhandled errors here
 };
 
-module.exports = new Scanner();
+module.exports = new Scanner;
